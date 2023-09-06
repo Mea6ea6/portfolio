@@ -14,4 +14,4 @@ At this stage of my life, I am on a free float strengthening my skills both pers
 
 ### My contacts 🔗
 
-[igor.sergeevich.814@gmail.com](#) / [telegram](#) / [instagram](#)
+[igor.sergeevich.814@gmail.com](igor.sergeevich.814@gmail.com) / [telegram](https://t.me/mea6ea6) / [instagram](https://www.instagram.com/mea6ea6/)
