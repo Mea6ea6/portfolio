@@ -72,7 +72,13 @@
     grid-template-columns: repeat(5, 150px);
     gap: 32px;
 }
-.tools__card {
+.tools__block {
+    width: 100%;
+    height: 100%;
+}
+.tools__link {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,11 +88,11 @@
     box-shadow: 6px 8px 0px 0px #000;
     transition: 0.3s;
 }
-.tools__card:hover {
+.tools__link:hover {
     transform: translate(-2px, -4px);
     box-shadow: 8px 12px 0px 0px var(--black);
 }
-.tools__card:active {
+.tools__link:active {
     opacity: 0.6;
     transform: translate(0);
     box-shadow: 6px 8px 0px 0px var(--black);

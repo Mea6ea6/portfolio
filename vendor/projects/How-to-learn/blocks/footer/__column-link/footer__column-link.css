@@ -1,0 +1,14 @@
+.footer__column-link {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    transition: var(--transition-hover);
+}
+
+.footer__column-link:hover {
+    color: var(--blue);
+}

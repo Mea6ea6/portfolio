@@ -27,66 +27,31 @@
             <section class="tools">
                 <h2 class="section-title">Development Tools 🧰</h2>
                 <nav class="tools__row">
-                    <a class="tools__card" href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-1.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://www.w3schools.com/css/css_intro.asp" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-2.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://www.w3schools.com/whatis/whatis_js.asp" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-3.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://nodejs.org/en/about" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-4.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://getbem.com/introduction/" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-5.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-6.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://github.com/about" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-7.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://www.atlassian.com/git/tutorials/git-bash#:~:text=What%20is%20Git%20Bash%3F,operating%20system%20through%20written%20commands." target="_blank">
-                        <img class="tools__image" src="images/_tool-img-8.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://webpack.js.org/" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-9.png" alt="#">
-                    </a>
-                    <a class="tools__card" href="https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma-" target="_blank">
-                        <img class="tools__image" src="images/_tool-img-10.png" alt="#">
-                    </a>
+
+                    <template id="tool-template">
+                        <article class="tools__block">
+                            <a class="tools__link" href="" target="_blank">
+                                <img class="tools__image" src="" alt="?">
+                            </a>
+                        </article>
+                    </template>
+
                 </nav>
             </section>
 
             <section class="projects">
                 <h2 class="section-title">My finished projects 🖼️</h2>
                 <div class="project">
-                    <article class="project__block">
-                        <a class="project__link" href="#" target="_blank">
-                            <h3 class="project__title">Solar.EXE</h3>
-                            <img class="project__icon" src="images/_link-black.svg" alt="#">
-                        </a>
-                    </article>
-                    <article class="project__block">
-                        <a class="project__link" href="#" target="_blank">
-                            <h3 class="project__title">How to learn</h3>
-                            <img class="project__icon" src="images/_link-black.svg" alt="#">
-                        </a>
-                    </article>
-                    <article class="project__block">
-                        <a class="project__link" href="#" target="_blank">
-                            <h3 class="project__title">Russian travel</h3>
-                            <img class="project__icon" src="images/_link-black.svg" alt="#">
-                        </a>
-                    </article>
-                    <article class="project__block">
-                        <a class="project__link" href="#" target="_blank">
-                            <h3 class="project__title">Mesto</h3>
-                            <img class="project__icon" src="images/_link-black.svg" alt="#">
-                        </a>
-                    </article>
+
+                    <template id="project-template">
+                        <article class="project__block">
+                            <a class="project__link" href="" target="_blank">
+                                <h3 class="project__title"></h3>
+                                <img class="project__icon" src="images/_link-black.svg" alt="→">
+                            </a>
+                        </article>
+                    </template>
+
                 </div>
             </section>
 
@@ -116,5 +81,8 @@
     </div>
 
 </body>
+<script src="scripts/utils/contants.js"></script>
+<script src="scripts/components/Tool.js"></script>
+<script src="scripts/components/Project.js"></script>
 <script src="pages/index.js"></script>
 </html>
