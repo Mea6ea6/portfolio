@@ -14,7 +14,7 @@ function createProject({title, link}) {
   return project;
 }
 
-function renderProject(data, position = 'append') {
+function renderProject(data, position = 'prepend') {
   switch (position) {
     case 'append':
       projects.append(createProject(data));
