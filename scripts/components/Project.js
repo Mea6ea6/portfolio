@@ -14,15 +14,6 @@ function createProject({title, link}) {
   return project;
 }
 
-function renderProject(data, position = 'prepend') {
-  switch (position) {
-    case 'append':
-      projects.append(createProject(data));
-      break;
-    case 'prepend':
-      projects.prepend(createProject(data));
-      break;
-    default:
-      break;
-  };
+function renderProject(data) {
+  projects.prepend(createProject(data));
 };

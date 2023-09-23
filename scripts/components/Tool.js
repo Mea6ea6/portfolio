@@ -14,15 +14,6 @@ function createTool({link, img}) {
   return tool;
 }
 
-function renderTool(data, position = 'append') {
-  switch (position) {
-    case 'append':
-      tools.append(createTool(data));
-      break;
-    case 'prepend':
-      tools.prepend(createTool(data));
-      break;
-    default:
-      break;
-  };
+function renderTool(data) {
+  tools.append(createTool(data));
 };
