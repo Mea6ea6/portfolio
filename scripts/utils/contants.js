@@ -1,61 +1,57 @@
 const initialTools = [
   {
-    link: "https://www.w3schools.com/html/html_intro.asp",
-    img: "images/_tool-img-1.png",
+    link: "https://developer.mozilla.org/ru/docs/Web/HTML",
+    img: "images/tool/__tool-html.png",
   },
   {
-    link: "https://www.w3schools.com/css/css_intro.asp",
-    img: "images/_tool-img-2.png",
+    link: "https://developer.mozilla.org/ru/docs/Web/CSS",
+    img: "images/tool/__tool-css.png",
   },
   {
-    link: "https://www.w3schools.com/whatis/whatis_js.asp",
-    img: "images/_tool-img-3.png",
+    link: "https://developer.mozilla.org/en-US/docs/Glossary/JavaScript",
+    img: "images/tool/__tool-js.png",
   },
   {
-    link: "https://nodejs.org/en/about",
-    img: "images/_tool-img-4.png",
-  },
-  {
-    link: "https://getbem.com/introduction/",
-    img: "images/_tool-img-5.png",
-  },
-  {
-    link: "https://code.visualstudio.com/docs/editor/whyvscode",
-    img: "images/_tool-img-6.png",
-  },
-  {
-    link: "https://github.com/about",
-    img: "images/_tool-img-7.png",
-  },
-  {
-    link: "https://www.atlassian.com/git/tutorials/git-bash#:~:text=What%20is%20Git%20Bash%3F,operating%20system%20through%20written%20commands.",
-    img: "images/_tool-img-8.png",
+    link: "https://legacy.reactjs.org/",
+    img: "images/tool/__tool-react.png",
   },
   {
     link: "https://webpack.js.org/",
-    img: "images/_tool-img-9.png",
+    img: "images/tool/__tool-webpack.png",
+  },
+  {
+    link: "https://nodejs.org/en/about",
+    img: "images/tool/__tool-node.png",
+  },
+  {
+    link: "https://code.visualstudio.com/",
+    img: "images/tool/__tool-vscode.png",
+  },
+  {
+    link: "https://github.com/about",
+    img: "images/tool/__tool-github.png",
+  },
+  {
+    link: "https://www.atlassian.com/git/tutorials/git-bash#:~:text=What%20is%20Git%20Bash%3F,operating%20system%20through%20written%20commands.",
+    img: "images/tool/__tool-gitbush.png",
   },
   {
     link: "https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma-",
-    img: "images/_tool-img-10.png",
+    img: "images/tool/__tool-figma.png",
   },
 ];
 
 const initialProjects = [
   {
-    title: "Solar.EXE",
-    link: "vendor/projects/Solar.EXE/index.html",
-  },
-  {
     title: "How to learn",
-    link: "vendor/projects/How-to-learn/index.html",
+    link: "https://mea6ea6.github.io/how-to-learn/",
   },
   {
     title: "Russian travel",
-    link: "vendor/projects/Russian-travel/index.html",
+    link: "https://mea6ea6.github.io/russian-travel/",
   },
   {
     title: "Mesto",
-    link: "vendor/projects/Mesto/index.html",
+    link: "https://mea6ea6.github.io/mesto/",
   },
 ];

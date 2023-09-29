@@ -1,10 +1,6 @@
-# Portfolio with my works
-__Link to GHPage →__ _[link](https://mea6ea6.github.io/my-foobar/)_ 🚀  
-(By clicking on the link you will get to the hosting from GitHub on which the site with my works is located)
+# [Portfolio with my works](https://mea6ea6.github.io/my-foobar/)_ 🚀  
 
-------  
-
-## About me
+__About me__
 
 In 2019. I graduated from the 9th grade of basic general education. After that, in 2023, he graduated from the College of Computer Science and Programming at the Financial University with a degree in Information Systems and Programming. To get more information, consolidate knowledge and develop useful skills, I signed up for courses from Yandex. 
 
@@ -12,6 +8,6 @@ At this stage of my life, I am on a free float strengthening my skills both pers
 
 ------
 
-### My contacts 🔗
+__My contacts 🔗__
 
 [igor.sergeevich.814@gmail.com](igor.sergeevich.814@gmail.com) / [telegram](https://t.me/mea6ea6) / [instagram](https://www.instagram.com/mea6ea6/)
