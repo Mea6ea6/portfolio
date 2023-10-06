@@ -1,4 +1,4 @@
-# [Portfolio with my works](https://mea6ea6.github.io/my-foobar/)_ 🚀  
+# [Portfolio with my works](https://mea6ea6.github.io/portfolio/) 🚀  
 
 __About me__
 
