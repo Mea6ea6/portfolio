@@ -1,4 +1,4 @@
-# [Portfolio with my works](https://mea6ea6.github.io/portfolio/) 🚀  
+# [Website with examples of works](https://mea6ea6.github.io/utils/) 🚀  
 
 __About me__
 
