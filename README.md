@@ -1,13 +1,13 @@
-# [Website with examples of works](https://mea6ea6.github.io/utils/) 🚀  
+# [My portfolio](https://mea6ea6.github.io/portfolio/) 🚀  
 
 __About me__
 
-In 2019. I graduated from the 9th grade of basic general education. After that, in 2023, he graduated from the College of Computer Science and Programming at the Financial University with a degree in Information Systems and Programming. To get more information, consolidate knowledge and develop useful skills, I signed up for courses from Yandex. 
+I was born in Voronezh, later moved to Moscow, graduated from school there and the College of Computer Science and Programming at the Financial University. I love listening to music, I'm into hiking and board games. I started coding in the last years of my studies at school. I carried out orders from friends, did internships and internships in little-known and private companies. I am currently passing through additional courses and developing web development skills and programming, I am simultaneously engaged in job search and admission to the Armenian University.
 
 At this stage of my life, I am on a free float strengthening my skills both personal and related to programming 🧙
 
 ------
 
-__My contacts 🔗__
+__My contacts__
 
-[igor.sergeevich.814@gmail.com](igor.sergeevich.814@gmail.com) / [telegram](https://t.me/mea6ea6) / [instagram](https://www.instagram.com/mea6ea6/)
+e-mail: igor.sergeevich.814@gmail.com / [telegram 🔗](https://t.me/mea6ea6)
