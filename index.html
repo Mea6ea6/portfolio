@@ -1,93 +1,163 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/x-icon/__x-icon.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Inter:regular,700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Sora:700" rel="stylesheet" />
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="stylesheet" href="pages/index.css">
-    <title>Portfolio</title>
-</head>
-<body class="background">
-    
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/x-icon/__x-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./vendor/fonts.css" />
+    <link rel="stylesheet" href="./vendor/root.css" />
+    <link rel="stylesheet" href="./vendor/animation.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>My web-page</title>
+  </head>
+  <body class="background">
     <div class="page">
+      <header class="header">
+        <h1 class="header__title">My personal web-page 👨🏻‍💻</h1>
+      </header>
 
-        <header class="header">
-            <h1 class="section-title">About me 🧙‍♂️</h1>
-            <div class="header__description">
-                <p class="section-paragraph">
-                    I was born in Voronezh, later moved to Moscow, graduated from school there
-                    and the College of Computer Science and Programming at the Financial
-                    University. I love listening to music, I'm into hiking and
-                    board games. He started walking in the last years of his studies at
-                    school. I carried out orders from friends, did internships and internships
-                    in little-known and private companies. I am currently passing through
-                    additional courses and developing web development skills and
-                    programming, I am simultaneously engaged in job search and
-                    admission to the Armenian University.</p>
-                <p class="section-paragraph">At this stage of my life, I am on a free float strengthening my skills both personal and related to programming.</p>
+      <main class="content">
+        <section class="nav-bar">
+          <div class="container">
+            <ul class="nav-bar__items">
+              <li class="nav-bar__item">
+                <a class="nav-bar__link" href="#dev-tools">Dev Tools</a>
+              </li>
+              <li class="nav-bar__item">
+                <a class="nav-bar__link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-bar__item">
+                <a class="nav-bar__link" href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="dev-tools" id="dev-tools">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Dev Tools</h2>
+              <div class="section__line"></div>
             </div>
-        </header>
-
-        <main class="main">
-
-            <section class="tools">
-                <h2 class="section-title">Development Tools 🧰</h2>
-                <nav class="tools__row">
-
-                    <template id="tool-template">
-                        <article class="tools__block">
-                            <a class="tools__link" href="" target="_blank">
-                                <img class="tools__image" src="" alt="?">
-                            </a>
-                        </article>
-                    </template>
-
-                </nav>
-            </section>
-
-            <section class="projects">
-                <h2 class="section-title">Examples of works 🖼️</h2>
-                <div class="project">
-
-                    <template id="project-template">
-                        <article class="project__block">
-                            <a class="project__link" href="" target="_blank">
-                                <h3 class="project__title"></h3>
-                                <img class="project__icon" src="images/link/__link-black.svg" alt="→">
-                            </a>
-                        </article>
-                    </template>
-
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="footer">
-            <h2 class="section-title section-title_footer">My contacts 🔗</h2>
-            <div class="footer__contacts">
-                <p class="footer__link link_mail">igor.sergeevich.814@gmail.com</p>
-                <div class="footer__links">
-                    <a class="footer__link" href="https://github.com/Mea6ea6" target="_blank">github
-                        <img class="footer__link-icon" src="images/link/__link-white.svg" alt="🚀">
-                    </a>
-                    <p class="footer__slash">/</p>
-                    <a class="footer__link" href="https://t.me/mea6ea6" target="_blank">telegram
-                        <img class="footer__link-icon" src="images/link/__link-white.svg" alt="🚀">
-                    </a>
-                </div>
+            <div class="dev-tools__box">
+              <h3 class="dev-tools__title">Skills</h3>
+              <p class="dev-tools__caption">
+                Technologies that I am familiar with and work
+              </p>
+              <ul class="dev-tools__items">
+                <template id="tool-template">
+                  <li class="dev-tools__item">
+                    <a
+                      class="dev-tools__link"
+                      href=""
+                      title=""
+                      target="_blank"
+                    ></a>
+                  </li>
+                </template>
+              </ul>
             </div>
-            <p class="section-paragraph">Develop & Designed by Mea6ea6</p>
-        </footer>
+          </div>
+        </section>
 
+        <section class="about-me" id="about-me">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">About me</h2>
+              <div class="section__line"></div>
+            </div>
+            <div class="about-me__box">
+              <div class="about-me__text-block">
+                <h3 class="about-me__name">Igor Malikov</h3>
+                <p class="about-me__caption">
+                  Frontend developer, 20 years old
+                </p>
+                <p class="about-me__info">
+                  I was born in Voronezh, later moved to Moscow, graduated from
+                  the school and College of Computer Science and Programming at
+                  the Financial University there. I like to listen to music,
+                  enjoy walking, board games and video games. He started walking
+                  in the last years of his studies at school. I carried out
+                  orders from friends, did internships in little-known and
+                  private companies. I am currently developing web development
+                  and programming skills, while simultaneously looking for a job
+                  and applying to an Armenian University.
+                </p>
+              </div>
+              <div class="about-me__frame">
+                <img
+                  class="about-me__img"
+                  src="./images/about-me/__my-photo.png"
+                  alt="me"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Portfolio</h2>
+            </div>
+            <div class="portfolio__items">
+              <template id="project-template">
+                <div class="portfolio__item">
+                  <p class="portfolio__item-name"></p>
+                  <div class="portfolio__item-links">
+                    <a
+                      class="portfolio__item-link link_download"
+                      href=""
+                      title="link to download the project code"
+                      target="_blank"
+                      >download</a
+                    >
+                    <a
+                      class="portfolio__item-link link_github"
+                      href=""
+                      title="link to the project github"
+                      target="_blank"
+                      >github</a
+                    >
+                    <a
+                      class="portfolio__item-link link_preview"
+                      href=""
+                      title="link to the project preview"
+                      target="_blank"
+                      >preview</a
+                    >
+                  </div>
+                </div>
+              </template>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Contacts</h2>
+            <div class="section__line"></div>
+          </div>
+          <div class="footer__box">
+            <p class="footer__caption">Developed by Mea6ea6</p>
+            <div class="footer__links">
+              <a class="footer__link" href="">telegram</a>
+              <a class="footer__link" href="">github</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-
-</body>
-<script src="scripts/utils/contants.js"></script>
-<script src="scripts/components/Tool.js"></script>
-<script src="scripts/components/Project.js"></script>
-<script src="pages/index.js"></script>
+  </body>
+  <script src="./utils/constants.js"></script>
+  <script src="./components/Tool.js"></script>
+  <script src="./components/Project.js"></script>
+  <script src="pages/index.js"></script>
 </html>

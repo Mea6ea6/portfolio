@@ -1,0 +1,36 @@
+@keyframes rocket {
+  0% {
+    top: -50px;
+    right: -30px;
+    rotate: -100deg;
+  }
+
+  50% {
+    top: -30px;
+    right: -50px;
+    rotate: -80deg;
+  }
+
+  100% {
+    top: -50px;
+    right: -30px;
+    rotate: -100deg;
+  }
+}
+
+@keyframes alien {
+  0% {
+    bottom: -40px;
+    left: -60px;
+  }
+
+  50% {
+    bottom: -60px;
+    left: -30px;
+  }
+
+  100% {
+    bottom: -40px;
+    left: -60px;
+  }
+}
