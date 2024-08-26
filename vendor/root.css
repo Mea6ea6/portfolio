@@ -9,3 +9,24 @@
     --transition-hover: all 0.3s;
     --max-width: 1140px;
 }
+
+@media screen and (max-width: 1280px) {
+    :root {
+        --max-width: 1024px;
+    }
+}
+@media screen and (max-width: 1140px) {
+    :root {
+        --max-width: 768px;
+    }
+}
+@media screen and (max-width: 816px) {
+    :root {
+        --max-width: 425px;
+    }
+}
+@media screen and (max-width: 473px) {
+    :root {
+        --max-width: 320px;
+    }
+}
