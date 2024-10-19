@@ -49,20 +49,22 @@ const initialTools = [
 const initialProjects = [
   {
     title: "How to learn",
-    download: "https://github.com/Mea6ea6/how-to-learn/archive/refs/heads/main.zip",
     github: "https://github.com/Mea6ea6/how-to-learn",
     preview: "https://mea6ea6.github.io/how-to-learn/",
   },
   {
     title: "Russian travel",
-    download: "https://github.com/Mea6ea6/russian-travel/archive/refs/heads/main.zip",
     github: "https://github.com/Mea6ea6/russian-travel",
     preview: "https://mea6ea6.github.io/russian-travel/",
   },
   {
     title: "Mesto",
-    download: "https://github.com/Mea6ea6/mesto/archive/refs/heads/main.zip",
     github: "https://github.com/Mea6ea6/mesto",
     preview: "https://mea6ea6.github.io/mesto/",
+  },
+  {
+    title: "AppleSoldOut",
+    github: "https://github.com/Mea6ea6/apple-sold-out",
+    preview: "https://mea6ea6.github.io/apple-sold-out/",
   },
 ];
