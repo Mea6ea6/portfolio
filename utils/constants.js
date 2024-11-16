@@ -67,4 +67,9 @@ const initialProjects = [
     github: "https://github.com/Mea6ea6/apple-sold-out",
     preview: "https://mea6ea6.github.io/apple-sold-out/",
   },
+  {
+    title: "EXPI",
+    github: "https://github.com/Mea6ea6/expi",
+    preview: "https://mea6ea6.github.io/expi/",
+  },
 ];
