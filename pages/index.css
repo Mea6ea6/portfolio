@@ -36,7 +36,7 @@
 }
 
 .header {
-    min-height: 92vh;
+    min-height: 96vh;
     background-image: url('../images/header/__background.svg');
     background-repeat: no-repeat;
     background-position: top;
