@@ -58,11 +58,6 @@ const initialProjects = [
     preview: "https://mea6ea6.github.io/russian-travel/",
   },
   {
-    title: "Mesto",
-    github: "https://github.com/Mea6ea6/mesto",
-    preview: "https://mea6ea6.github.io/mesto/",
-  },
-  {
     title: "AppleSoldOut",
     github: "https://github.com/Mea6ea6/apple-sold-out",
     preview: "https://mea6ea6.github.io/apple-sold-out/",
