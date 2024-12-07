@@ -1,11 +1,11 @@
 :root {
     --main-font: 'Inter', sans-serif;
     --title-font: 'Sora', sans-serif;
-    --white: #FFF;
     --black: #000;
-    --light-gray: #8B8B8B;
-    --heavy-gray: #272727;
     --dark: #1C1C1C;
+    --heavy-gray: #272727;
+    --light-gray: #8B8B8B;
+    --white: #FFF;
     --transition-hover: all 0.3s;
     --max-width: 1140px;
 }

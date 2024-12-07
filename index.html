@@ -3,36 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/x-icon/__x-icon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./images/x-icon/__x-icon.svg" type="image/x-icon"/>
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./vendor/fonts.css" />
-    <link rel="stylesheet" href="./vendor/root.css" />
+    <link rel="stylesheet" href="./variables/root.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>My web-page</title>
   </head>
   <body class="background">
     <div class="page">
       <header class="header">
-        <h1 class="header__title">My personal web-page 👨🏻‍💻</h1>
+        <h1 class="header__title">My personal web-page</h1>
+
+        <div class="nav-bar">
+          <a class="nav-bar__link" href="#dev-tools">Dev Tools</a>
+          <a class="nav-bar__link" href="#about-me">About Me</a>
+          <a class="nav-bar__link" href="#portfolio">Portfolio</a>
+        </div>
       </header>
 
       <main class="content">
-        <section class="nav-bar">
-          <div class="container">
-            <ul class="nav-bar__items">
-              <li class="nav-bar__item">
-                <a class="nav-bar__link" href="#dev-tools">Dev Tools</a>
-              </li>
-              <li class="nav-bar__item">
-                <a class="nav-bar__link" href="#about-me">About Me</a>
-              </li>
-              <li class="nav-bar__item">
-                <a class="nav-bar__link" href="#portfolio">Portfolio</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-
         <section class="dev-tools" id="dev-tools">
           <div class="container">
             <div class="section__header">
@@ -93,6 +83,7 @@
           <div class="container">
             <div class="section__header">
               <h2 class="section__title">Portfolio</h2>
+              <div class="section__line"></div>
             </div>
             <div class="portfolio__items">
               <template id="project-template">
