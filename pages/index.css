@@ -1,3 +1,7 @@
+@import url("../vendor/fonts.css");
+@import url("../vendor/normalize.css");
+@import url("../variables/root.css");
+
 .background {
     background-color: var(--dark);
 }
