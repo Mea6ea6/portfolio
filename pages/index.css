@@ -125,17 +125,27 @@
     height: 60px;
     background-color: var(--white);
     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
     transition: var(--transition-hover);
 }
 .dev-tools__link {
-    font-size: 14px;
     color: var(--black);
+    font-size: 14px;
+    position: relative;
+}
+.dev-tools__link::after {
+    content: '';
+    opacity: 0;
     width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 0.5px;
+    background-color: var(--black);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    border-radius: 20px;
+    transition: var(--transition-hover);
 }
 
 .about-me {
@@ -289,6 +299,10 @@
     .dev-tools__item:active {
         transform: scale(0.96);
         opacity: 0.8;
+    }
+    .dev-tools__link:hover::after {
+        opacity: 1;
+        bottom: -2px;
     }
     
     .portfolio__item:hover {
