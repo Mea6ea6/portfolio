@@ -340,6 +340,10 @@
         transform: scale(0.96);
         opacity: 0.8;
     }
+    .dev-tools__link:hover::after {
+        opacity: 1;
+        bottom: -2px;
+    }
     
     .portfolio__item:hover {
         transform: scale(1.01);
