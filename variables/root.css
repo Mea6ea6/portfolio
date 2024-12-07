@@ -20,12 +20,12 @@
         --max-width: 768px;
     }
 }
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 820px) {
     :root {
         --max-width: 425px;
     }
 }
-@media screen and (max-width: 473px) {
+@media screen and (max-width: 480px) {
     :root {
         --max-width: 320px;
     }

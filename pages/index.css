@@ -377,7 +377,7 @@
         flex-direction: column;
     }
 }
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 820px) {
     .section__title {
         font-size: 16px;
     }
@@ -430,7 +430,7 @@
         font-size: 12px;
     }
 }
-@media screen and (max-width: 473px) {
+@media screen and (max-width: 480px) {
     .header__title {
         max-width: 240px;
         font-size: 28px;
@@ -457,5 +457,13 @@
     }
     .portfolio__item-link {
         font-size: 10px;
+    }
+    .footer__box {
+        align-items: start;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .footer__links {
+        gap: 10px;
     }
 }
