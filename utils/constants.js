@@ -69,7 +69,7 @@ const initialProjects = [
   },
   {
     title: "VIPAWN",
-    github: "https://github.com/Mea6ea6/vipawn",
-    preview: "https://mea6ea6.github.io/vipawn/",
+    github: "https://github.com/Mea6ea6/vipawn-mockup",
+    preview: "https://mea6ea6.github.io/vipawn-mockup/",
   },
 ];
