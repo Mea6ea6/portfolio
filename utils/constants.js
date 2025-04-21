@@ -1,13 +1,13 @@
 const initialTools = [
   {
-    name: "HTML",
-    title: "link to the article about HTML",
-    link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
-  },
-  {
     name: "CSS",
     title: "link to the article about CSS",
     link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS",
+  },
+  {
+    name: "HTML",
+    title: "link to the article about HTML",
+    link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
   },
   {
     name: "JS",
@@ -15,14 +15,14 @@ const initialTools = [
     link: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript",
   },
   {
-    name: "Node JS",
-    title: "link to the article about Node JS",
-    link: "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
-  },
-  {
     name: "React",
     title: "link to the article about React JS",
     link: "https://legacy.reactjs.org/",
+  },
+  {
+    name: "Node JS",
+    title: "link to the article about Node JS",
+    link: "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
   },
   {
     name: "Express.js",
@@ -30,19 +30,29 @@ const initialTools = [
     link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
   },
   {
+    name: "mongoDB",
+    title: "link to the article about mongoDB",
+    link: "https://www.mongodb.com/company/what-is-mongodb",
+  },
+  {
+    name: "VS Code",
+    title: "link to the article about VS Code",
+    link: "https://code.visualstudio.com/docs/editor/whyvscode",
+  },
+  {
     name: "Git",
     title: "link to the article about Git",
     link: "https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
   },
   {
+    name: "GitHub",
+    title: "link to the article about GitHub",
+    link: "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
+  },
+  {
     name: "Figma",
     title: "link to the article about Figma",
     link: "https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma",
-  },
-  {
-    name: "mongoDB",
-    title: "link to the article about mongoDB",
-    link: "https://www.mongodb.com/company/what-is-mongodb",
   },
 ];
 
@@ -58,6 +68,11 @@ const initialProjects = [
     preview: "https://mea6ea6.github.io/russian-travel/",
   },
   {
+    title: "Mesto",
+    github: "https://github.com/Mea6ea6/mesto",
+    preview: "mea6ea6.github.io/mesto/",
+  },
+  {
     title: "AppleSoldOut",
     github: "https://github.com/Mea6ea6/apple-sold-out",
     preview: "https://mea6ea6.github.io/apple-sold-out/",
@@ -68,8 +83,13 @@ const initialProjects = [
     preview: "https://mea6ea6.github.io/expi/",
   },
   {
-    title: "VIPAWN",
+    title: "VIPAWN Mockup",
     github: "https://github.com/Mea6ea6/vipawn-mockup",
     preview: "https://mea6ea6.github.io/vipawn-mockup/",
+  },
+  {
+    title: "VIPAWN Draft",
+    github: "https://github.com/Mea6ea6/vipawn",
+    preview: "mea6ea6.github.io/vipawn/",
   },
 ];
