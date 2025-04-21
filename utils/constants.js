@@ -30,9 +30,14 @@ const initialTools = [
     link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
   },
   {
-    name: "mongoDB",
-    title: "link to the article about mongoDB",
+    name: "MongoDB",
+    title: "link to the article about MongoDB",
     link: "https://www.mongodb.com/company/what-is-mongodb",
+  },
+  {
+    name: "Postman",
+    title: "link to the article about Postman",
+    link: "https://www.postman.com/product/what-is-postman/",
   },
   {
     name: "VS Code",
@@ -40,14 +45,14 @@ const initialTools = [
     link: "https://code.visualstudio.com/docs/editor/whyvscode",
   },
   {
+    name: "GitHub", 
+    title: "link to the article about GitHub",
+    link: "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
+  },
+  {
     name: "Git",
     title: "link to the article about Git",
     link: "https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
-  },
-  {
-    name: "GitHub",
-    title: "link to the article about GitHub",
-    link: "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
   },
   {
     name: "Figma",
