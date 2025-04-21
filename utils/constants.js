@@ -75,7 +75,7 @@ const initialProjects = [
   {
     title: "Mesto",
     github: "https://github.com/Mea6ea6/mesto",
-    preview: "mea6ea6.github.io/mesto/",
+    preview: "https://mea6ea6.github.io/mesto/",
   },
   {
     title: "AppleSoldOut",
@@ -95,6 +95,6 @@ const initialProjects = [
   {
     title: "VIPAWN Draft",
     github: "https://github.com/Mea6ea6/vipawn",
-    preview: "mea6ea6.github.io/vipawn/",
+    preview: "https://mea6ea6.github.io/vipawn/",
   },
 ];
