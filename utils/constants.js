@@ -20,26 +20,6 @@ const initialTools = [
     link: "https://legacy.reactjs.org/",
   },
   {
-    name: "Node JS",
-    title: "link to the article about Node JS",
-    link: "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
-  },
-  {
-    name: "Express.js",
-    title: "link to the article about Express.js",
-    link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
-  },
-  {
-    name: "MongoDB",
-    title: "link to the article about MongoDB",
-    link: "https://www.mongodb.com/company/what-is-mongodb",
-  },
-  {
-    name: "Postman",
-    title: "link to the article about Postman",
-    link: "https://www.postman.com/product/what-is-postman/",
-  },
-  {
     name: "VS Code",
     title: "link to the article about VS Code",
     link: "https://code.visualstudio.com/docs/editor/whyvscode",
@@ -62,6 +42,56 @@ const initialTools = [
 ];
 
 const initialProjects = [
+  {
+    title: "BeastBot",
+    github: "https://github.com/Mea6ea6/crypto-beastbot",
+    preview: "https://mea6ea6.github.io/crypto-beastbot/",
+  },
+  {
+    title: "SHIB",
+    github: "https://github.com/Mea6ea6/crypto-shib",
+    preview: "https://mea6ea6.github.io/crypto-shib/",
+  },
+  {
+    title: "Aptos",
+    github: "https://github.com/Mea6ea6/crypto-aptos",
+    preview: "https://mea6ea6.github.io/crypto-aptos/",
+  },
+  {
+    title: "Phantom",
+    github: "https://github.com/Mea6ea6/crypto-phantom",
+    preview: "https://mea6ea6.github.io/crypto-phantom/",
+  },
+  {
+    title: "Serum",
+    github: "https://github.com/Mea6ea6/crypto-serum",
+    preview: "https://mea6ea6.github.io/crypto-serum/",
+  },
+  {
+    title: "Solscan (vol. 1)",
+    github: "https://github.com/Mea6ea6/crypto-solscan-1",
+    preview: "https://mea6ea6.github.io/crypto-solscan-1/",
+  },
+  {
+    title: "Solscan (vol. 2)",
+    github: "https://github.com/Mea6ea6/crypto-solscan-2",
+    preview: "https://mea6ea6.github.io/crypto-solscan-2/",
+  },
+  {
+    title: "Terium",
+    github: "https://github.com/Mea6ea6/crypto-terium",
+    preview: "https://mea6ea6.github.io/crypto-terium/",
+  },
+  {
+    title: "Simple Swap",
+    github: "https://github.com/Mea6ea6/crypto-simple-swap",
+    preview: "https://mea6ea6.github.io/crypto-simple-swap/",
+  },
+  {
+    title: "MagicEden",
+    github: "https://github.com/Mea6ea6/crypto-magic-eden",
+    preview: "https://mea6ea6.github.io/crypto-magic-eden/",
+  },
   {
     title: "How to learn",
     github: "https://github.com/Mea6ea6/how-to-learn",
