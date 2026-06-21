@@ -10,7 +10,11 @@
   <body class="background">
     <div class="page">
       <header class="header">
-        <h1 class="header__title">My personal web-page</h1>
+        <div class="header__box">
+          <h1 class="header__title">Hi, I'm Igor</h1>
+          <p class="header__subtitle">Frontend developer crafting clean interfaces, currently exploring new directions.</p>
+          <a class="header__button" href="#portfolio">View Projects →</a>
+        </div>
 
         <div class="nav-bar">
           <a class="nav-bar__link" href="#dev-tools">Dev Tools</a>
@@ -29,15 +33,16 @@
             <div class="dev-tools__box">
               <h3 class="dev-tools__title">Skills</h3>
               <p class="dev-tools__caption">
-                Technologies that I am familiar with and work
+                Tools and technologies I work with
               </p>
-              <ul class="dev-tools__items">
+              <div class="dev-tools__links">
                 <template id="tool-template">
-                  <li class="dev-tools__item">
-                    <a class="dev-tools__link" href="" title="" target="_blank"></a>
-                  </li>
+                  <a class="dev-tools__link" href="" title="" target="_blank">
+                    <span class="dev-tools__icon"></span>
+                    <span class="dev-tools__name"></span>
+                  </a>
                 </template>
-              </ul>
+              </div>
             </div>
           </div>
         </section>
