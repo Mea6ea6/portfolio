@@ -188,7 +188,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: start;
     margin: 50px 0 0;
 }
 .about-me__text-block {
@@ -205,6 +205,50 @@
 .about-me__info {
     font-size: 14px;
     line-height: 160%;
+    margin: 0 0 12px;
+}
+.about-me__timeline {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-left: 2px solid var(--light-gray);
+    padding-left: 20px;
+}
+.about-me__timeline-item {
+    position: relative;
+    padding: 0 0 28px 0;
+}
+.about-me__timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 2px solid var(--light-gray);
+}
+.about-me__timeline-item:last-child {
+    padding-bottom: 0;
+}
+.about-me__timeline-date {
+    font-size: 12px;
+    color: var(--light-gray);
+    display: block;
+    margin-bottom: 4px;
+}
+.about-me__timeline-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 4px;
+}
+.about-me__timeline-desc {
+    font-size: 13px;
+    line-height: 160%;
+    margin: 0;
+    opacity: 0.7;
 }
 .about-me__frame {
     width: 340px;
