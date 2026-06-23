@@ -1,8 +1,6 @@
-// const ↓
 const tools = document.querySelector('.dev-tools__links');
 const toolTemplate = document.querySelector('#tool-template').content.firstElementChild;
 
-// function ↓
 function createTool({ name, title, link, icon, color }) {
   const tool = toolTemplate.cloneNode(true);
 

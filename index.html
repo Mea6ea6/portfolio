@@ -1,9 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/x-icon/__x-icon.svg" type="image/x-icon"/>
+    <link
+      rel="shortcut icon"
+      href="./images/x-icon/__x-icon.svg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>My web-page</title>
   </head>
@@ -12,7 +16,10 @@
       <header class="header">
         <div class="header__box">
           <h1 class="header__title">Hi, I'm Igor</h1>
-          <p class="header__subtitle">Frontend developer crafting clean interfaces, currently exploring new directions.</p>
+          <p class="header__subtitle">
+            Frontend developer crafting clean interfaces, currently exploring
+            new directions.
+          </p>
           <a class="header__button" href="#portfolio">View Projects →</a>
         </div>
 
@@ -48,7 +55,7 @@
         </section>
 
         <section class="about-me" id="about-me">
-          <div class="container">
+          <div class="container about-me__container">
             <div class="section__header">
               <h2 class="section__title">About me</h2>
               <div class="section__line"></div>
@@ -57,61 +64,39 @@
               <div class="about-me__text-block">
                 <h3 class="about-me__name">Igor Malikov</h3>
                 <p class="about-me__caption">Frontend dev, 22 years old</p>
-                <p class="about-me__info">
-                  Born in Voronezh, grew up in Moscow — graduated from the College of Computer Science and Programming at the Financial University. Picked up coding in my final years of school and never really stopped.
-                </p>
-                <p class="about-me__info">
-                  Currently based in Yerevan, studying psychology at the Russian-Armenian University and taking on freelance projects. I enjoy building clean, functional interfaces — from quick landing pages to more involved collaborations.
-                </p>
+                <div class="about-me__description">
+                  <p class="about-me__info">
+                    Born in Voronezh, grew up in Moscow — graduated from the
+                    College of Computer Science and Programming at the Financial
+                    University. Picked up coding in my final years of school and
+                    never really stopped.
+                  </p>
+                  <p class="about-me__info">
+                    Currently based in Yerevan, studying psychology at the
+                    Russian-Armenian University and taking on freelance projects.
+                    I enjoy building clean, functional interfaces — from quick
+                    landing pages to more involved collaborations.
+                  </p>
+                </div>
                 <div class="about-me__timeline">
-                  <div class="about-me__timeline-item">
-                    <span class="about-me__timeline-date">2021 – 2023</span>
-                    <div class="about-me__timeline-content">
-                      <p class="about-me__timeline-title">College of Computer Science and Programming</p>
-                      <p class="about-me__timeline-desc">Financial University under the Government of the Russian Federation.</p>
+                  <template id="timeline-template">
+                    <div class="about-me__timeline-item">
+                      <p class="about-me__timeline-date"></p>
+                      <p class="about-me__timeline-title"></p>
+                      <p class="about-me__timeline-desc"></p>
                     </div>
-                  </div>
-                  <div class="about-me__timeline-item">
-                    <span class="about-me__timeline-date">2021 – 2023</span>
-                    <div class="about-me__timeline-content">
-                      <p class="about-me__timeline-title">Freelance Frontend Developer</p>
-                      <p class="about-me__timeline-desc">Built landing pages for crypto and NFT projects while studying — first real client work.</p>
-                    </div>
-                  </div>
-                  <div class="about-me__timeline-item">
-                    <span class="about-me__timeline-date">2023</span>
-                    <div class="about-me__timeline-content">
-                      <p class="about-me__timeline-title">Yandex Practicum</p>
-                      <p class="about-me__timeline-desc">Web development course — HTML, CSS, JS, React, Node.js, MongoDB.</p>
-                    </div>
-                  </div>
-                  <div class="about-me__timeline-item">
-                    <span class="about-me__timeline-date">2023 – 2024</span>
-                    <div class="about-me__timeline-content">
-                      <p class="about-me__timeline-title">Surge — Co-founder & Frontend Lead</p>
-                      <p class="about-me__timeline-desc">Led frontend development for the team's first major project — a full-scale jewelry pawnshop platform. The team disbanded after internal conflicts.</p>
-                    </div>
-                  </div>
-                  <div class="about-me__timeline-item">
-                    <span class="about-me__timeline-date">2023 – present</span>
-                    <div class="about-me__timeline-content">
-                      <p class="about-me__timeline-title">Russian-Armenian University</p>
-                      <p class="about-me__timeline-desc">Studying psychology. Prep group in 2023–2024, now a full student.</p>
-                    </div>
-                  </div>
-                  <div class="about-me__timeline-item">
-                    <span class="about-me__timeline-date">2024 – present</span>
-                    <div class="about-me__timeline-content">
-                      <p class="about-me__timeline-title">Freelance</p>
-                      <p class="about-me__timeline-desc">Ongoing — landing pages, small client projects, occasional collaborations.</p>
-                    </div>
-                  </div>
+                  </template>
                 </div>
               </div>
               <div class="about-me__frame">
-                <img class="about-me__img" src="./images/about-me/__my-photo.png" alt="me"/>
+                <img
+                  class="about-me__img"
+                  src="./images/about-me/__my-photo.png"
+                  alt="me"
+                />
               </div>
             </div>
+            <div class="about-me__orbit" aria-hidden="true"></div>
           </div>
         </section>
 
@@ -124,10 +109,25 @@
             <div class="portfolio__items">
               <template id="project-template">
                 <div class="portfolio__item">
-                  <p class="portfolio__item-name"></p>
+                  <div class="portfolio__item-header">
+                    <p class="portfolio__item-name"></p>
+                    <span class="portfolio__item-tag"></span>
+                  </div>
                   <div class="portfolio__item-links">
-                    <a class="portfolio__item-link link_github" href="" title="link to the project github" target="_blank">github</a>
-                    <a class="portfolio__item-link link_preview" href="" title="link to the project preview" target="_blank">preview</a>
+                    <a
+                      class="portfolio__item-link link_github"
+                      href=""
+                      title="link to the project github"
+                      target="_blank"
+                      >github</a
+                    >
+                    <a
+                      class="portfolio__item-link link_preview"
+                      href=""
+                      title="link to the project preview"
+                      target="_blank"
+                      >preview</a
+                    >
                   </div>
                 </div>
               </template>
@@ -145,8 +145,11 @@
           <div class="footer__box">
             <p class="footer__caption">Developed by @Mea6ea6</p>
             <div class="footer__links">
-              <a class="footer__link" href="https://t.me/mea6ea6">telegram</a>
-              <a class="footer__link" href="https://github.com/Mea6ea6">github</a>
+              <div class="footer__links">
+                <a class="footer__link" href="mailto:igor.sergeevich.814@gmail.com">email</a>
+                <a class="footer__link" href="https://t.me/mea6ea6">telegram</a>
+                <a class="footer__link" href="https://github.com/Mea6ea6">github</a>
+              </div>
             </div>
           </div>
         </div>
@@ -156,5 +159,6 @@
   <script src="./utils/constants.js"></script>
   <script src="./components/Tool.js"></script>
   <script src="./components/Project.js"></script>
+  <script src="./components/Timeline.js"></script>
   <script src="pages/index.js"></script>
 </html>
