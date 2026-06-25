@@ -1,14 +1,16 @@
 :root {
-    --main-font: 'Inter', sans-serif;
-    --title-font: 'Sora', sans-serif;
-    --black: #000;
-    --dark: #1C1C1C;
-    --heavy-gray: #272727;
-    --medium-gray: #8B8B8B;
-    --light-gray: #bebebe;
-    --white: #FFF;
-    --transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease, bottom 0.3s ease;
-    --max-width: 1140px;
+  --main-font: "Inter", sans-serif;
+  --title-font: "Sora", sans-serif;
+  --black: #000;
+  --dark: #1c1c1c;
+  --heavy-gray: #272727;
+  --medium-gray: #8b8b8b;
+  --light-gray: #bebebe;
+  --white: #fff;
+  --transition:
+    color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease,
+    transform 0.3s ease, opacity 0.3s ease, bottom 0.3s ease;
+  --max-width: 1140px;
 }
 
 .background {
@@ -31,22 +33,22 @@
 }
 
 @media screen and (max-width: 1280px) {
-    :root {
-        --max-width: 1024px;
-    }
+  :root {
+    --max-width: 1024px;
+  }
 }
 @media screen and (max-width: 1140px) {
-    :root {
-        --max-width: 768px;
-    }
+  :root {
+    --max-width: 768px;
+  }
 }
 @media screen and (max-width: 820px) {
-    :root {
-        --max-width: 425px;
-    }
+  :root {
+    --max-width: 425px;
+  }
 }
 @media screen and (max-width: 480px) {
-    :root {
-        --max-width: 320px;
-    }
+  :root {
+    --max-width: 320px;
+  }
 }
