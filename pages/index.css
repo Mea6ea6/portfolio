@@ -240,7 +240,7 @@
   line-height: 160%;
   margin: 0;
 }
-/* Test */
+/* Work here */
 .about-me__sidebar {
   display: flex;
   flex-direction: column;
@@ -249,21 +249,20 @@
   flex-shrink: 0;
 }
 .about-me__frame {
-  width: 340px;
-  height: 340px;
+  width: 320px;
+  height: 320px;
   background-color: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 14px;
   -webkit-border-radius: 14px;
+  overflow: hidden;
   position: relative;
 }
 .about-me__img {
-  width: 320px;
-  height: 320px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
+  width: auto;
+  height: 100%;
 }
 .about-me__docs {
   width: 100%;
@@ -292,7 +291,6 @@
   color: var(--medium-gray);
   font-size: 16px;
 }
-/* ---- */
 
 .portfolio {
   width: 100%;
