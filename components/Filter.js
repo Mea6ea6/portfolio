@@ -4,13 +4,24 @@ function filterProjects(filter) {
   const items = document.querySelectorAll('.portfolio__item');
 
   items.forEach(function(item) {
-    if (filter === 'all') {
-      item.style.display = 'flex';
-      return;
-    }
     const tag = item.querySelector('.portfolio__item-tag');
     const tagText = tag ? tag.dataset.tag : '';
-    item.style.display = tagText === filter ? 'flex' : 'none';
+    const match = filter === 'all' || tagText === filter;
+
+    if (match) {
+      item.style.display = 'flex';
+      requestAnimationFrame(function() {
+        item.classList.remove('hidden');
+      });
+    } else {
+      item.classList.add('hidden');
+      item.addEventListener('transitionend', function hide() {
+        if (item.classList.contains('hidden')) {
+          item.style.display = 'none';
+        }
+        item.removeEventListener('transitionend', hide);
+      });
+    }
   });
 }
 
