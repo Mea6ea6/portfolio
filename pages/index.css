@@ -18,6 +18,7 @@
   height: 1px;
   background-color: var(--medium-gray);
   border-radius: 20px;
+  -webkit-border-radius: 20px;
 }
 
 .header {
@@ -57,14 +58,15 @@
 .header__button {
   color: var(--black);
   font-size: 14px;
-  font-weight: 500;
   background-color: var(--white);
   padding: 12px 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
   transition: var(--transition-hover);
+  will-change: transform;
 }
 
 .nav-bar {
@@ -93,6 +95,7 @@
   left: 0;
   bottom: -6px;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
   transition: var(--transition-hover);
 }
 
@@ -137,7 +140,9 @@
   flex-direction: column;
   gap: 8px;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
   transition: var(--transition-hover);
+  will-change: transform;
 }
 .dev-tools__icon {
   display: inline-block;
@@ -215,6 +220,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
   background-color: var(--white);
   border: 2px solid var(--medium-gray);
 }
@@ -241,22 +247,49 @@
   align-items: center;
   justify-content: center;
   border-radius: 14px;
+  -webkit-border-radius: 14px;
   position: relative;
 }
 .about-me__img {
   width: 320px;
   height: 320px;
   border-radius: 10px;
-  position: relative;
+  -webkit-border-radius: 10px;
 }
 
 .portfolio {
   width: 100%;
   padding: 100px 0;
 }
+.portfolio__filters {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 30px 0 0;
+  flex-wrap: wrap;
+}
+.portfolio__filter {
+  font-family: var(--main-font);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--medium-gray);
+  background: none;
+  padding: 5px 14px;
+  border: 1px solid var(--heavy-gray);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: var(--transition-hover);
+}
+.portfolio__filter.active {
+  color: var(--black);
+  background-color: var(--white);
+  border-color: var(--white);
+}
 .portfolio__items {
   width: 100%;
-  margin: 50px 0 0;
+  margin: 30px 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -270,7 +303,9 @@
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
   transition: var(--transition-hover);
+  will-change: transform;
 }
 .portfolio__item-header {
   display: flex;
@@ -315,6 +350,7 @@
   left: 0;
   bottom: -6px;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
   transition: var(--transition-hover);
 }
 .portfolio__item-tag {
@@ -322,6 +358,7 @@
   font-weight: 600;
   padding: 3px 8px;
   border-radius: 6px;
+  -webkit-border-radius: 6px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   white-space: nowrap;
@@ -350,6 +387,7 @@
 }
 .footer__caption-highlight {
   color: var(--white);
+  text-decoration: underline;
 }
 .footer__links {
   display: flex;
@@ -357,23 +395,26 @@
   gap: 20px;
 }
 .footer__email {
-  line-height: 1;
+  color: var(--white);
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
+  line-height: 1;
 }
 .footer__tooltip {
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+  will-change: transform;
   background-color: var(--white);
   color: var(--black);
   font-size: 11px;
   font-family: var(--main-font);
   padding: 4px 8px;
   border-radius: 6px;
+  -webkit-border-radius: 6px;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
@@ -385,6 +426,7 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
+  will-change: transform;
   border: 5px solid transparent;
   border-top-color: var(--white);
 }
@@ -402,6 +444,7 @@
   left: 0;
   bottom: -6px;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
   transition: var(--transition-hover);
 }
 
@@ -431,6 +474,14 @@
     opacity: 0.8;
   }
 
+  .portfolio__filter:hover {
+    border-color: var(--medium-gray);
+    color: var(--white);
+  }
+  .portfolio__filter.active:hover {
+    transform: scale(1.04);
+    color: var(--black);
+  }
   .portfolio__item:hover {
     transform: scale(1.01);
   }
@@ -501,6 +552,7 @@
     font-size: 12px;
     padding: 8px 16px;
     border-radius: 8px;
+    -webkit-border-radius: 8px;
   }
   .nav-bar__link {
     font-size: 12px;

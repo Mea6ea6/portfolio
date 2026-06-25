@@ -61,7 +61,7 @@
         </section>
 
         <section class="about-me" id="about-me">
-          <div class="container about-me__container">
+          <div class="container">
             <div class="section__header">
               <h2 class="section__title">About me</h2>
               <div class="section__line"></div>
@@ -112,6 +112,16 @@
               <h2 class="section__title">Portfolio</h2>
               <div class="section__line"></div>
             </div>
+
+            <!-- Test -->
+            <div class="portfolio__filters">
+              <button class="portfolio__filter active" data-filter="all">All</button>
+              <button class="portfolio__filter" data-filter="landing">Landing</button>
+              <button class="portfolio__filter" data-filter="course">Course</button>
+              <button class="portfolio__filter" data-filter="multi-page">Multi-page</button>
+            </div>
+            <!-- ---- -->
+
             <div class="portfolio__items">
               <template id="project-template">
                 <div class="portfolio__item">
@@ -163,10 +173,11 @@
     </div>
 
     <script src="./utils/constants.js" defer></script>
-    <script src="./components/Tool.js" defer></script>
+    <script src="./components/Copy.js" defer></script>
+    <script src="./components/Filter.js" defer></script>
     <script src="./components/Project.js" defer></script>
     <script src="./components/Timeline.js" defer></script>
-    <script src="./components/Copy.js" defer></script>
+    <script src="./components/Tool.js" defer></script>
     <script src="pages/index.js" defer></script>
   </body>
 </html>

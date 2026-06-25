@@ -10,6 +10,7 @@ function createProject({ title, tag, github, preview }) {
 
   const tagEl = project.querySelector('.portfolio__item-tag');
   tagEl.textContent = tag;
+  tagEl.dataset.tag = tag;
   tagEl.classList.add(`portfolio__item-tag_${tag.replace('-', '_')}`);
 
   return project;
