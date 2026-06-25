@@ -69,7 +69,7 @@ const initialTimeline = [
     desc: "Built landing pages for crypto and NFT projects while studying — first real client work.",
   },
   {
-    date: "2023 - 2024",
+    date: "2023 – 2024",
     title: "Yandex Practicum",
     desc: "Web development course — HTML, CSS, JS, React, Node.js, MongoDB.",
   },
