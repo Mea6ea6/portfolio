@@ -58,6 +58,7 @@
 .header__button {
   color: var(--black);
   font-size: 14px;
+  font-weight: 500;
   background-color: var(--white);
   padding: 12px 24px;
   display: flex;

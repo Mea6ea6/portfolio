@@ -4,15 +4,32 @@ const toolTemplate = document.querySelector('#tool-template').content.firstEleme
 function createTool({ name, title, link, icon, color }) {
   const tool = toolTemplate.cloneNode(true);
 
-  tool.setAttribute('href', link);
-  tool.setAttribute('title', title);
+  if (link) {
+    tool.setAttribute('href', link);
+  } else {
+    tool.removeAttribute('href');
+  }
+
+  if (title) {
+    tool.setAttribute('title', title);
+  } else {
+    tool.removeAttribute('title');
+  }
 
   const iconEl = tool.querySelector('.dev-tools__icon');
-  iconEl.style.setProperty('--icon-url', `url(https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/${icon}.svg)`);
-  iconEl.style.setProperty('--icon-color', `#${color}`);
+  if (icon && color) {
+    iconEl.style.setProperty('--icon-url', `url(https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/${icon}.svg)`);
+    iconEl.style.setProperty('--icon-color', `#${color}`);
+  } else {
+    iconEl.remove();
+  }
 
   const nameEl = tool.querySelector('.dev-tools__name');
-  nameEl.textContent = name;
+  if (name) {
+    nameEl.textContent = name;
+  } else {
+    nameEl.remove();
+  }
 
   return tool;
 }

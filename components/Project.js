@@ -5,17 +5,33 @@ function createProject({ title, tag, github, preview }) {
   const project = projectTemplate.cloneNode(true);
 
   project.querySelector('.portfolio__item-name').textContent = title;
-  project.querySelector('.link_github').setAttribute('href', github);
-  project.querySelector('.link_preview').setAttribute('href', preview);
+
+  const githubEl = project.querySelector('.link_github');
+  if (github) {
+    githubEl.setAttribute('href', github);
+  } else {
+    githubEl.remove();
+  }
+
+  const previewEl = project.querySelector('.link_preview');
+  if (preview) {
+    previewEl.setAttribute('href', preview);
+  } else {
+    previewEl.remove();
+  }
 
   const tagEl = project.querySelector('.portfolio__item-tag');
-  tagEl.textContent = tag;
-  tagEl.dataset.tag = tag;
-  tagEl.classList.add(`portfolio__item-tag_${tag.replace('-', '_')}`);
+  if (tag) {
+    tagEl.textContent = tag;
+    tagEl.dataset.tag = tag;
+    tagEl.classList.add(`portfolio__item-tag_${tag.replace(/-/g, '_')}`);
+  } else {
+    tagEl.remove();
+  }
 
   return project;
 }
 
 function renderProject(data) {
   projects.prepend(createProject(data));
-};
+}

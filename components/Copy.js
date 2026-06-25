@@ -12,6 +12,8 @@ copyButtons.forEach(function(button) {
           tooltip.textContent = 'Click to copy';
         }, 2000);
       }
+    }).catch(function() {
+      if (tooltip) tooltip.textContent = 'Copy failed';
     });
   });
 });
