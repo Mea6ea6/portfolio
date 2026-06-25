@@ -7,8 +7,27 @@
     --medium-gray: #8B8B8B;
     --light-gray: #bebebe;
     --white: #FFF;
-    --transition-hover: all 0.3s;
+    --transition-hover: transform 0.3s ease, opacity 0.3s ease, bottom 0.3s ease;
     --max-width: 1140px;
+}
+
+.background {
+  background-color: var(--dark);
+}
+
+.page {
+  width: 100%;
+  color: var(--white);
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+.container {
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1280px) {

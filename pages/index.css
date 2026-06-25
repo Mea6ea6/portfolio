@@ -2,25 +2,6 @@
 @import url("../vendor/normalize.css");
 @import url("../variables/root.css");
 
-.background {
-  background-color: var(--dark);
-}
-
-.page {
-  width: 100%;
-  color: var(--white);
-  font-family: var(--main-font);
-  font-weight: 400;
-}
-
-.container {
-  max-width: var(--max-width);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
 .section__header {
   width: 100%;
   display: flex;
@@ -428,6 +409,10 @@
   .header__button:hover {
     transform: scale(1.04);
   }
+  .header__button:active {
+    transform: scale(0.96);
+    opacity: 0.8;
+  }
 
   .nav-bar__link:hover::after {
     opacity: 1;
@@ -545,6 +530,10 @@
   .about-me__caption {
     font-size: 14px;
   }
+  .portfolio__item-tag {
+    font-size: 8px;
+    padding: 2px 6px;
+  }
   .portfolio__item-name {
     font-size: 18px;
   }
@@ -581,6 +570,9 @@
   }
   .about-me__name {
     font-size: 28px;
+  }
+  .portfolio__item-tag {
+    display: none;
   }
   .portfolio__item-name {
     font-size: 14px;
