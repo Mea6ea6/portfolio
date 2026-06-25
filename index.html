@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Igor Malikov — Frontend Developer</title>
+    <meta name="description" content="Frontend developer based in Yerevan. Portfolio of landing pages, web projects, and UI work." />
+    <meta property="og:title" content="Igor Malikov — Frontend Developer" />
+    <meta property="og:description" content="Frontend developer based in Yerevan." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio-cyan-eight-25.vercel.app/" />
     <link
       rel="shortcut icon"
       href="./images/x-icon/__x-icon.svg"
@@ -81,8 +87,8 @@
                 <div class="about-me__timeline">
                   <template id="timeline-template">
                     <div class="about-me__timeline-item">
-                      <p class="about-me__timeline-date"></p>
-                      <p class="about-me__timeline-title"></p>
+                      <time class="about-me__timeline-date"></time>
+                      <strong class="about-me__timeline-title"></strong>
                       <p class="about-me__timeline-desc"></p>
                     </div>
                   </template>
@@ -92,7 +98,7 @@
                 <img
                   class="about-me__img"
                   src="./images/about-me/__my-photo.png"
-                  alt="me"
+                  alt="Igor Malikov"
                 />
               </div>
             </div>
@@ -143,21 +149,24 @@
             <div class="section__line"></div>
           </div>
           <div class="footer__box">
-            <p class="footer__caption">Developed by @Mea6ea6</p>
+            <p class="footer__caption">Developed by <span class="footer__caption-highlight">@Mea6ea6</span></p>
             <div class="footer__links">
-              <div class="footer__links">
-                <a class="footer__link" href="mailto:igor.sergeevich.814@gmail.com">email</a>
-                <a class="footer__link" href="https://github.com/Mea6ea6">github</a>
-              </div>
+              <button class="footer__link footer__email" data-copy="igor.sergeevich.814@gmail.com">
+                e-mail
+                <span class="footer__tooltip copy__tooltip">Click to copy</span>
+              </button>
+              <a class="footer__link" href="https://github.com/Mea6ea6">github</a>
             </div>
           </div>
         </div>
       </footer>
     </div>
+
+    <script src="./utils/constants.js" defer></script>
+    <script src="./components/Tool.js" defer></script>
+    <script src="./components/Project.js" defer></script>
+    <script src="./components/Timeline.js" defer></script>
+    <script src="./components/Copy.js" defer></script>
+    <script src="pages/index.js" defer></script>
   </body>
-  <script src="./utils/constants.js"></script>
-  <script src="./components/Tool.js"></script>
-  <script src="./components/Project.js"></script>
-  <script src="./components/Timeline.js"></script>
-  <script src="pages/index.js"></script>
 </html>
