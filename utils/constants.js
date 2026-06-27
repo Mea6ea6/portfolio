@@ -90,6 +90,27 @@ const initialTimeline = [
   },
 ];
 
+const initialDocs = [
+  {
+    name: "Resume",
+    action: "↓",
+    href: "./docs/resume.pdf",
+    download: true,
+  },
+  {
+    name: "Certificate (EN)",
+    action: "↗",
+    href: "./docs/web-developer (en).pdf",
+    download: false,
+  },
+  {
+    name: "Certificate (RU)",
+    action: "↗",
+    href: "./docs/web-developer (ru).pdf",
+    download: false,
+  },
+];
+
 const initialProjects = [
   {
     title: "BeastBot",

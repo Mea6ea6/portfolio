@@ -103,7 +103,6 @@
                   </template>
                 </div>
               </div>
-              <!-- Work here -->
               <div class="about-me__sidebar">
                 <div class="about-me__frame">
                   <img
@@ -112,27 +111,21 @@
                     alt="Igor Malikov"
                   />
                 </div>
-                <div class="about-me__docs">
-                  <a class="about-me__doc" href="./docs/resume.pdf" download>
-                    <span class="about-me__doc-name">Resume</span>
-                    <span class="about-me__doc-action">↓</span>
-                  </a>
-                  <a
-                    class="about-me__doc"
-                    href="./docs/web-developer (en).pdf"
-                    target="_blank"
-                  >
-                    <span class="about-me__doc-name">Certificate (EN)</span>
-                    <span class="about-me__doc-action">↗</span>
-                  </a>
-                  <a
-                    class="about-me__doc"
-                    href="./docs/web-developer (ru).pdf"
-                    target="_blank"
-                  >
-                    <span class="about-me__doc-name">Certificate (RU)</span>
-                    <span class="about-me__doc-action">↗</span>
-                  </a>
+                <div class="about-me__accordion">
+                  <button class="about-me__accordion-trigger">
+                    <span>Documents</span>
+                    <span class="about-me__accordion-arrow">+</span>
+                  </button>
+                  <div class="about-me__accordion-content">
+                    <div class="about-me__docs">
+                      <template id="doc-template">
+                        <a class="about-me__doc" href="" target="_blank">
+                          <span class="about-me__doc-name"></span>
+                          <span class="about-me__doc-action"></span>
+                        </a>
+                      </template>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -220,11 +213,12 @@
     </div>
 
     <script src="./utils/constants.js" defer></script>
-    <script src="./components/Copy.js" defer></script>
+    <script src="./components/Tool.js" defer></script>
+    <script src="./components/Timeline.js" defer></script>
+    <script src="./components/Docs.js" defer></script>
     <script src="./components/Filter.js" defer></script>
     <script src="./components/Project.js" defer></script>
-    <script src="./components/Timeline.js" defer></script>
-    <script src="./components/Tool.js" defer></script>
+    <script src="./components/Copy.js" defer></script>
     <script src="pages/index.js" defer></script>
   </body>
 </html>
