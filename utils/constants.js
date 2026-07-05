@@ -173,6 +173,12 @@ const initialProjects = [
     preview: "https://mea6ea6.github.io/crypto-magic-eden/",
   },
   {
+    title: "Doge",
+    tag: "landing",
+    github: "https://github.com/Mea6ea6/crypto-doge",
+    preview: "https://mea6ea6.github.io/crypto-doge/",
+  },
+  {
     title: "AppleSoldOut",
     tag: "landing",
     github: "https://github.com/Mea6ea6/apple-sold-out",
