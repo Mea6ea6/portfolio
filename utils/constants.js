@@ -220,4 +220,16 @@ const initialProjects = [
     github: "https://github.com/Mea6ea6/vipawn",
     preview: "https://mea6ea6.github.io/vipawn/",
   },
+  {
+    title: "Dev Tools",
+    tag: "multi-page",
+    github: "https://github.com/Mea6ea6/dev-tools",
+    preview: "https://mea6ea6.github.io/dev-tools/",
+  },
+  {
+    title: "How to JS",
+    tag: "multi-page",
+    github: "https://github.com/Mea6ea6/how-to-js",
+    preview: "https://mea6ea6.github.io/how-to-js/",
+  },
 ];
