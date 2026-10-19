@@ -27,6 +27,13 @@ const initialTools = [
     icon: "react",
     color: "61DAFB",
   },
+    {
+    name: "TypeScript",
+    title: "Learn more about TypeScript",
+    link: "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html",
+    icon: "typescript",
+    color: "3178C6",
+  },
   {
     name: "VS Code",
     title: "Learn more about VS Code",
@@ -113,6 +120,24 @@ const initialDocs = [
 
 const initialProjects = [
   {
+    title: "How to learn",
+    tag: "course",
+    github: "https://github.com/Mea6ea6/how-to-learn",
+    preview: "https://mea6ea6.github.io/how-to-learn/",
+  },
+  {
+    title: "Russian travel",
+    tag: "course",
+    github: "https://github.com/Mea6ea6/russian-travel",
+    preview: "https://mea6ea6.github.io/russian-travel/",
+  },
+  {
+    title: "Mesto",
+    tag: "course",
+    github: "https://github.com/Mea6ea6/mesto",
+    preview: "https://mea6ea6.github.io/mesto/",
+  },
+  {
     title: "BeastBot",
     tag: "landing",
     github: "https://github.com/Mea6ea6/crypto-beastbot",
@@ -185,24 +210,6 @@ const initialProjects = [
     preview: "https://mea6ea6.github.io/apple-sold-out/",
   },
   {
-    title: "How to learn",
-    tag: "course",
-    github: "https://github.com/Mea6ea6/how-to-learn",
-    preview: "https://mea6ea6.github.io/how-to-learn/",
-  },
-  {
-    title: "Russian travel",
-    tag: "course",
-    github: "https://github.com/Mea6ea6/russian-travel",
-    preview: "https://mea6ea6.github.io/russian-travel/",
-  },
-  {
-    title: "Mesto",
-    tag: "course",
-    github: "https://github.com/Mea6ea6/mesto",
-    preview: "https://mea6ea6.github.io/mesto/",
-  },
-  {
     title: "EXPI",
     tag: "multi-page",
     github: "https://github.com/Mea6ea6/expi",
@@ -221,15 +228,8 @@ const initialProjects = [
     preview: "https://mea6ea6.github.io/vipawn/",
   },
   {
-    title: "Dev Tools",
+    title: "SoulFlow",
     tag: "multi-page",
-    github: "https://github.com/Mea6ea6/dev-tools",
-    preview: "https://mea6ea6.github.io/dev-tools/",
-  },
-  {
-    title: "How to JS",
-    tag: "multi-page",
-    github: "https://github.com/Mea6ea6/how-to-js",
-    preview: "https://mea6ea6.github.io/how-to-js/",
-  },
+    github: "https://github.com/Mea6ea6/soulflow",
+  }
 ];
